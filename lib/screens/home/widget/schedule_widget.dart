@@ -1,0 +1,55 @@
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
+import '../../../services/utils.dart';
+import '../../../widget/under_line/under_line_widget.dart';
+
+class ScheduleWidget extends StatelessWidget {
+  const ScheduleWidget({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    final color = Utils(context).textColor;
+
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          'home.schedule'.tr,
+          textAlign: TextAlign.justify,
+          style: Theme.of(context)
+              .textTheme
+              .displayLarge
+              ?.copyWith(color: color),
+        ),
+        accentUnderLineWidget,
+        SizedBox(height: 10),
+        Text(
+          'home.modernizing'.tr,
+          textAlign: TextAlign.justify,
+          style: Theme.of(context)
+              .textTheme
+              .displayMedium
+              ?.copyWith(color: color),
+        ),
+        Text(
+          'home.rebuild'.tr,
+          textAlign: TextAlign.justify,
+          style: Theme.of(context)
+              .textTheme
+              .displayMedium
+              ?.copyWith(color: color),
+        ),
+        Text(
+          'home.journey'.tr,
+          textAlign: TextAlign.justify,
+          style: Theme.of(context)
+              .textTheme
+              .displayMedium
+              ?.copyWith(color: color),
+        ),
+      ],
+    );
+  }
+}
