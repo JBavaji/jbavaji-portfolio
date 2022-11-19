@@ -13,7 +13,7 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b6eb84d6a1544d442d532fad465dbb16/jetified-libs.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2603af7bafee41ec0ee585b5aa50ac6b/jetified-libs.jar</arg>
                 <arg>$MODULE_DIR$/../../../../build/video_player/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
                 <arg>$MODULE_DIR$/../../../../build/shared_preferences/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
                 <arg>$MODULE_DIR$/../../../../build/url_launcher/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
