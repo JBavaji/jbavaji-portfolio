@@ -14,7 +14,7 @@
             <stringArg name="classpath">
               <args>
                 <arg>$MODULE_DIR$/../../../../build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2603af7bafee41ec0ee585b5aa50ac6b/jetified-libs.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e0802c220337f53cd3e1c1c722d8b24b/jetified-libs.jar</arg>
                 <arg>$MODULE_DIR$/../../../../build/video_player/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
                 <arg>$MODULE_DIR$/../../../../build/shared_preferences/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
                 <arg>$MODULE_DIR$/../../../../build/url_launcher/intermediates/compile_library_classes_jar/debug/classes.jar</arg>

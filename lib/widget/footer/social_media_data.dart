@@ -23,11 +23,13 @@ class SocialMediaData {
       "https://apps.apple.com/in/app/com.jbavaji/id310633997";
 
   static launchURL(url) async {
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      print('Could not launch $url');
-      throw 'Could not launch $url';
-    }
+    await launch(url);
+
+    // if (await canLaunch(url)) {
+    //
+    // } else {
+    //   print('Could not launch $url');
+    //   throw 'Could not launch $url';
+    // }
   }
 }
